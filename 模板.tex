@@ -1,0 +1,56 @@
+% !Mode:: "TeX:UTF-8"
+%% 请使用 XeLaTeX 编译本文.
+%本模板基于武大本科生毕业论文模板制作，cls文件可能有部分冗余代码，请无视。
+%由于格式限制与本人能力有限，本模板使用了大量插入页面的方式来实现内容尽量的自由编辑，编辑内容在插入页进行，请勿直接编译插入页，插入页图片格式见示例。
+%第一页比较麻烦，注意调整内容多少，不然标题会离开原位，后面几页可以自动换页
+% \documentclass{WHUBachelor}% 选项 forprint: 交付打印时添加, 避免彩色链接字迹打印偏淡. 即使用下一行:
+ \documentclass[forprint]{WHUBachelor}
+\usepackage[T1]{fontenc}
+\usepackage{fancybox}
+\begin{document}
+%%%%%%% 下面的内容, 据实填空.
+
+%==========================把目录加入到书签==============================%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%--------main matter-------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\textbf{\kaishu \zihao{2}武\ 汉\ 大\ 学\ 物\ 理\ 科\ 学 \ 与\ 技\ 术 \ 学 \ 院}
+	\\
+	\textbf{\kaishu \zihao{2}物\ 理\ 实\ 验\ 报\ 告}
+~\\
+\vbox{}
+\rightline{\songti \zihao{4} {物理科学与技术\textbf{学院}\quad 物基\textbf{专业}\quad 2021\textbf{年}3\textbf{月}21\textbf{日}}}
+	\linespread{1.5}
+		\begin{tabular}{|p{1.9cm}|p{1.4cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2.5cm}|p{1.2cm}|p{1.2cm}|}
+			\hline
+			\songti \zihao{-4}
+			\rule[-1ex]{0pt}{2.5ex}\textbf{ 实验名称} & \multicolumn{7}{c|}{写报告} \\[4pt]
+			\hline
+			\rule[-1ex]{0pt}{2.5ex}  \textbf{\songti \zihao{-4}姓\quad 名}&  卢本伟&  \textbf{\songti \zihao{-4}年\ 级}&xx级  & \textbf{\songti \zihao{-4}学\ 号}& xxxxxxxxxxxxx &  \textbf{\songti \zihao{-4}成\ 绩} &  \\[4pt]
+			\hline
+			\multicolumn{8}{|c|}{
+			\begin{minipage}[h]{1\columnwidth}
+				\raggedleft
+				{\include{includefile/req-table}}
+			\end{minipage}}\\
+		\hline
+		\multicolumn{8}{|c|}{
+			\begin{minipage}[h]{0.928\columnwidth}
+				\raggedleft
+				{\include{includefile/page1}}
+		\end{minipage}}\\
+	    \hline
+		\end{tabular}
+\end{center}
+
+
+\include{includefile/middle} 
+\include{includefile/end}%%%致谢
+
+
+
+\cleardoublepage
+\end{document}
+
+
+

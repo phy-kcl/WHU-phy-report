@@ -1,0 +1,118 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.9.13)  22 MAR 2021 16:56
+entering extended mode
+**./page2.tex
+(page2.tex
+LaTeX2e <2018-12-01>
+! Undefined control sequence.
+l.4 \fancypage
+              {\fbox}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \fbox has an extra }.
+<inserted text> 
+                \par 
+l.4 \fancypage{\fbox}
+                     {}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \fbox was complete.
+<to be read again> 
+                   \par 
+l.4 \fancypage{\fbox}
+                     {}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{flushleft}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[] 
+ []
+
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 页 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 东 in font nullfont!
+Missing character: There is no 西 in font nullfont!
+Missing character: There is no . in font nullfont!
+)
+! Emergency stop.
+<*> ./page2.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 427694
+ 39 string characters out of 3145971
+ 63839 words of memory out of 3000000
+ 4142 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 9i,1n,4p,92b,59s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.
